@@ -3,7 +3,7 @@ import telegram
 from data import get_data,get_creds
 from googleapiclient.discovery import build
 
-SAMPLE_SPREADSHEET_ID = '1sgGS9t7PaJpSmvw__DgSpumvr0hbaIGf0rhhvZYWXXI'
+SAMPLE_SPREADSHEET_ID = 'BOT_TOKEN'
 
 def query(data,col,value):
     for row in data:
